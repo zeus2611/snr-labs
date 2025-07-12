@@ -3,7 +3,11 @@
 import { motion } from "framer-motion";
 import CountingNumbers from "@/components/shared/counting-numbers";
 
-export default function WebVitals() {
+export default function WebVitals({
+ projects
+}: {
+  projects: number;
+}) {
   return (
     <div className="relative h-full w-full">
       <motion.svg
@@ -17,7 +21,7 @@ export default function WebVitals() {
           animate={{ pathLength: 1 }}
           whileInView={{ pathLength: 1 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.5, duration: 2, ease: "easeOut" }}
+          transition={{ delay: 0.1, duration: 1.5, ease: "easeOut" }}
           strokeWidth={7}
           strokeDasharray="0 1"
           strokeLinecap="round"
@@ -30,8 +34,8 @@ export default function WebVitals() {
         />
       </motion.svg>
       <CountingNumbers
-        value={100}
-        duration={2500}
+        value={projects}
+        duration={1500}
         className="absolute inset-0 mx-auto flex items-center justify-center font-display text-5xl text-green-500"
       />
     </div>

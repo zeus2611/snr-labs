@@ -7,10 +7,10 @@ import { Analytics as VercelAnalytics } from "@vercel/analytics/react";
 import Navbar from "@/components/layout/navbar";
 
 export const metadata = {
-  title: "Precedent - Building blocks for your Next.js project",
+  title: "SNR Labs - Ingenious Code. Seamless Design. Limitless Possibilities.",
   description:
-    "Precedent is the all-in-one solution for your Next.js project. It includes a design system, authentication, analytics, and more.",
-  metadataBase: new URL("https://precedent.dev"),
+    "SNR Labs builds AI-first products using Flutter, Google Cloud, and OpenAI—combining speech processing, intelligent backends, and clean design into seamless user experiences.",
+  // metadataBase: new URL("https://precedent.dev"),
 };
 
 export default async function RootLayout({

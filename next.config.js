@@ -14,8 +14,32 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "media4.giphy.com"
-      }
+        hostname: "media4.giphy.com",
+      },
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.vectorlogo.zone",
+      },
+      {
+        protocol: "https",
+        hostname: "assets.streamlinehq.com",
+      },
+      {
+        protocol: "https",
+        hostname: "svgicons.com",
+      },
+      {
+        protocol: "https",
+        hostname: "img.icons8.com",
+      },
+      {
+        protocol: "https",
+        hostname: "downloads.marketplace.jetbrains.com",
+      },
     ],
   },
   async redirects() {

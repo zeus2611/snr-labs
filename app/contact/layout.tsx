@@ -1,8 +1,7 @@
 export const metadata = {
-  title: "Contact - SNR Labs",
+  title: "Contact us at SNR Labs",
   description:
     "",
-  metadataBase: new URL("https://precedent.dev"),
 };
 
 export default function ContactLayout({
